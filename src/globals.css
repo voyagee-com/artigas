@@ -1,0 +1,50 @@
+:root {
+  --primary: #f65e39;
+  --secondary: #1f1f98;
+  --tertiary: #7272ff;
+  --base: #eff0f2;
+  --lightest: #FFFFFF;
+  --darkest: #000000;
+  --text-base: #cfd1d0;
+  --text-dark: #09090b;
+
+  --brand02: rgb(136,194,64);
+  --brand03: rgb(70,195,230);
+  --brand04: rgb(106,199,179);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+footer {
+  padding: 4px 0;
+  background-color: var(--primary);
+}
+.container {
+  width: 1284px;
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 100%;
+}
+
+.main-content {
+  position: relative;
+  min-height: calc(100vh - 100px)
+}
+
+.side {
+  top: 0;
+  right: 0;
+  position:fixed;
+  width:370px;
+  height:100%;
+  background-color: var(--lightest);
+  box-shadow: 0 -1px 3px var(--base);
+  overflow:hidden;
+  transform: translate(0px, 186px);
+  /* transform: translate(350px, 186px); */
+}
