@@ -52,6 +52,10 @@ export const StyledInput = styled('div')({
       }
     }
   },
+  
+  '& input[type="date"]': {
+    width: '200px',
+  },
 
   '& label.has-value': {
     width: '1px',

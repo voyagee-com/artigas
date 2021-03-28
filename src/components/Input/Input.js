@@ -9,6 +9,7 @@ export const Input =  React.forwardRef(({ label, id, type = 'text', children, va
 
     if (target.textLength !== 0) {
       target.previousElementSibling.classList.add('has-value')
+      return
     }
 
     target.previousElementSibling.classList.toggle('has-value')
