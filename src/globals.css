@@ -46,5 +46,5 @@ footer {
   box-shadow: 0 -1px 3px var(--base);
   overflow:hidden;
   transform: translate(0px, 186px);
-  /* transform: translate(350px, 186px); */
+  transform: translate(350px, 186px);
 }
