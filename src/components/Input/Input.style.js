@@ -32,7 +32,7 @@ export const StyledInput = styled('div')({
 
   '& input': {
     padding: '16px 12px',
-    maxWidth: '200px',
+    maxWidth: '134px',
     minHeight: '43px',
     border: 0,
     borderRadius: '9px',
@@ -54,7 +54,7 @@ export const StyledInput = styled('div')({
   },
   
   '& input[type="date"]': {
-    width: '200px',
+    maxWidth: '162px',
   },
 
   '& label.has-value': {

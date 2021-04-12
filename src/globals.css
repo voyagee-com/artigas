@@ -25,9 +25,9 @@ footer {
   background-color: var(--primary);
 }
 .container {
-  width: 1284px;
+  /* width: 1284px; */
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 1em;
   max-width: 100%;
 }
 
@@ -47,4 +47,15 @@ footer {
   overflow:hidden;
   transform: translate(0px, 186px);
   /* transform: translate(350px, 186px); */
+}
+@media (min-width: 1349px) {
+  .container {
+    width: 980px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1284px;
+  }
 }
