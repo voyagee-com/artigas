@@ -12,7 +12,7 @@ export const Counter = React.forwardRef(({ label, id, min = 1, step = 1, value, 
     event.preventDefault()
     const inputNumber = event.target.previousElementSibling
     inputNumber.stepUp()
-    console.log(event);
+
     handleChange(event.target.previousElementSibling.value)
   }
 

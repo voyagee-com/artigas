@@ -16,7 +16,6 @@ export const Input =  React.forwardRef(({ label, id, type = 'text', children, va
   }
 
   const handleChange = internalHandler => (e) => {
-    console.log(e);
     if (internalHandler === undefined) {
       return
     }

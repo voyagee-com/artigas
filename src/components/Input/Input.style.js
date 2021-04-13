@@ -32,7 +32,7 @@ export const StyledInput = styled('div')({
 
   '& input': {
     padding: '16px 12px',
-    maxWidth: '134px',
+    maxWidth: '168px',
     minHeight: '43px',
     border: 0,
     borderRadius: '9px',
@@ -52,7 +52,7 @@ export const StyledInput = styled('div')({
       }
     }
   },
-  
+
   '& input[type="date"]': {
     maxWidth: '162px',
   },
